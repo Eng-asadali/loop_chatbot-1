@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Chatbot</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.31d6cfe0d16ae931b73c.css"><base href="/"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><style type="text/css">@font-face{font-family:'Lato';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Lato';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Lato';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Lato';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Lato';font-style:normal;font-weight:900;src:url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Lato';font-style:normal;font-weight:900;src:url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWnsUnxlC9.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWnsUnxlC9.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvucq7Gq0DDzS.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dt-cq7Gq0DDzS.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DsOcq7Gq0DDzS.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DvOcq7Gq0DDzS.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvecq7Gq0DDzS.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq7Gq0DA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style><link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css"><link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"><style type="text/css">/* Add application styles & imports to this file! */</style><style>.button[_ngcontent-c0] {
+  margin-right: 20px
+}
+.button-active[_ngcontent-c0] {
+  background-color: #9b4dca;
+  color: white;
+}
+.button-active[_ngcontent-c0]:hover, .button-active[_ngcontent-c0]:focus {
+  background-color: #9b4dca;
+  border-color: #9b4dca;
+  color: #fff;
+}
+.top-bar[_ngcontent-c0] {
+  margin: 25px 0;
+}</style><style>.message[_ngcontent-c1] {
+  margin: 0 15px 20px;
+  padding: 10px 20px;
+  position: relative;
+  font-size: 20px;
+}
+.message.to[_ngcontent-c1] {
+  background-color: #2095fe;
+  color: #fff;
+  margin-left: 100px;
+  text-align: right;
+}
+.message.from[_ngcontent-c1] {
+  background-color: #e5e4e9;
+  color: #363636;
+  margin-right: 100px;
+  border-radius: 10px 10px 10px 0px;
+}
+.message.to[_ngcontent-c1]    + .message.to[_ngcontent-c1], .message.from[_ngcontent-c1]    + .message.from[_ngcontent-c1] {
+  margin-top: -10px;
+}</style></head>
+
+
+
+
+
+
+  
+  
+    
+  <!-- <link rel="stylesheet" media="screen" href="https://c.staticblitz.com/assets/css/preview-5c402199.css">
+  <script src="https://c.staticblitz.com/assets/ext-b93074208de308fd20bfb.js" crossorigin="anonymous"></script>
+  <script src="https://c.staticblitz.com/d/webcontainer.3e00eb9f21511f88f1bf57f5f6810512f74d871c.js" crossorigin="anonymous"></script>
+  <script src="https://c.staticblitz.com/assets/preview-5ed832f5b414f80da8d0b.js" crossorigin="anonymous"></script> -->
+
+  <!-- <script>(function(){_preboot("https://l.staticblitz.com/b/v1/angular-chat-bot-1lothh/bc42a647615", {"p":"stackblitz","a":"AIzaSyBZSvuCzbUhuRrSps-HjM5bFClLPaFF9Vg","o":true,"u":"ale221","$":false})})()</script> -->
+
+
+
+
+
+<body>
+  <app-root></app-root>
+<script src="runtime.f6627ee3ebeaa6ae6d28.js" defer></script><script src="polyfills.d9b346c0d73e04f35374.js" defer></script><script src="main.c50cef59fc6771b844b9.js" defer></script>
+
+</body></html>
