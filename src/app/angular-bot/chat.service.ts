@@ -13,8 +13,9 @@ export class ChatService {
   
   messageMap:any = [{  
     "hi": "Hello",
-    "who are you": "My name is Agular Bot",
-    "What is Angular": "Angular is the best framework ever",
+    "who are you": "I'm Loop Chat Bot, how can I assist you?",
+    "where is yousaf": "Yousaf is quite busy these day, unable to find.",
+    "you are quite funny": "Yes I'm",
     "default": "I can't understand. Can you please repeat"
   }]
 
